@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+  }
+
+  header{
+      display: flex;
+      height:11vh;
+      /* background-color: red; */
+      /* background-image:url('img/本鼎堂.png'); */
+      /* background-size: contain; */
+      /* background-repeat:no-repeat; */
+
+  }
+  header img{
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  banner{
+      display: flex;
+  }
+  banner img{
+    /* max-width: 100%; */
+    height: 60vh;
+    width:100%;
+    margin: 0 auto;
+    background-size: contain;
+
+    
+      
+  }
+  content{
+      /* background-color: blue; */
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      /* background-size:cover; */
+      background-image:url('img/橘色2.png');
+      background-size: contain;
+
+  }
+  meat{
+      display: flex;
+      flex-flow: column nowrap;
+      /* background-color: rgb(143, 141, 141); */
+      overflow: scroll;
+  }
+  meat .meatimg{
+      display: flex;
+      flex-flow: row nowrap;
+      overflow: scroll;
+  }
+/* 控制banner */
+  .meatMeun img{
+      height: 11vh;
+      width: 100vw;
+  }
+  /* 文字 */
+  .meatimg > li {
+      text-align: center;
+      padding: 3%;
+      color: aliceblue;
+      font-family: cursive;
+      font-size: 1.5em;
+  }
+  /* 食材照片 */
+ .meatimg > li > img {
+     height: 25vh;
+     margin: 3%;
+     padding: 3%;
+   
+ }
+
+/* 蔬菜 */
+
+vegetable{
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: rgb(143, 141, 141); */
+    overflow: scroll;
+}
+vegetable .vegetableimg{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: scroll;
+}
+/* 控制banner */
+.vegetableMeun img{
+    height: 11vh;
+    width: 100vw;
+
+}
+/* 文字 */
+.vegetableimg > li {
+    text-align: center;
+      padding: 3%;
+      color: aliceblue;
+      font-family: cursive;
+      font-size: 1.5em;
+}
+/* 食材照片 */
+.vegetableimg > li > img {
+   height: 25vh;
+   margin: 3%;
+   padding: 3%;
+ 
+}
+
+/* 海鮮 */
+
+seafood{
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: rgb(143, 141, 141); */
+    overflow: scroll;
+}
+seafood .seafoodimg{
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 50vh; */
+    overflow: scroll;
+}
+/* 控制banner */
+.seafoodMeun img{
+    height: 11vh;
+    width: 100vw;
+}
+/* 文字 */
+.seafoodimg > li {
+    text-align: center;
+      padding: 3%;
+      color: aliceblue;
+      font-family: cursive;
+      font-size: 1.5em;
+}
+/* 食材照片 */
+.seafoodimg > li > img {
+   height: 25vh;
+   margin: 3%;
+   padding: 3%;
+ 
+}
+
+/* 火鍋料 */
+hotPotSauce{
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: rgb(143, 141, 141); */
+    overflow: scroll;
+}
+hotPotSauce .hotPotSauceimg{
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 50vh; */
+    overflow: scroll;
+}
+/* 控制banner */
+.hotPotSauceMeun img{
+    height: 11vh;
+    width: 100vw;
+}
+/* 文字 */
+.hotPotSauceimg > li {
+    text-align: center;
+    padding: 3%;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+/* 食材照片 */
+.hotPotSauceimg > li > img {
+   height: 25vh;
+   margin: 3%;
+   padding: 3%;
+ 
+}
+/* 單點 */
+single{
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: rgb(143, 141, 141); */
+    overflow: scroll;
+}
+single .singleimg{
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 50vh; */
+    overflow: scroll;
+}
+/* 控制banner */
+.singleMeun img{
+    height: 11vh;
+    width: 100vw;
+}
+/* 文字 */
+.singleimg > li {
+    text-align: center;
+      padding: 3%;
+      color: aliceblue;
+      font-family: cursive;
+      font-size: 1.5em;
+}
+/* 食材照片 */
+.singleimg > li > img {
+   height: 25vh;
+   margin: 3%;
+   padding: 3%;
+ 
+}
+/* 飲料 */
+
+drink{
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: rgb(143, 141, 141); */
+    overflow: scroll;
+}
+drink .drinkimg{
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 50vh; */
+    overflow: scroll;
+}
+/* 控制banner */
+.drinkMeun img{
+    height: 11vh;
+    width: 100vw;
+}
+/* 文字 */
+.drinkimg li {
+    text-align: center;
+      padding: 3%;
+      color: aliceblue;
+      font-family: cursive;
+      font-size: 1.5em; 
+}
+/* 食材照片 */
+.drinkimg > li > img {
+   height: 25vh;
+   margin: 3%;
+   padding: 3%;
+ 
+}
+drink{
+    margin-bottom: 15vh;
+}
+
+/* margin-bottom: 15vh; 最後補一個 */
+/* footer */
+.footer{
+    display: flex;
+    min-height: 80px;
+    height: 11vh;
+    /* background-color: aquamarine; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer {
+    justify-content:space-between;
+    display:flex;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url('img/測試黃.png');
+}
+
+.footer li {
+    min-width: 30px;
+}
+.footer li a {
+    /* margin: 3%; */
+    list-style: none;
+    text-decoration: none;
+    /* padding: 0 5px 0px 5px; */
+    color: aliceblue;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    
+}
+content div .go {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+content div img {
+
+    margin: 30px auto 30px auto ;
+    opacity: .1;
+    -webkit-transform: translateX(-350px);
+    transform: translateX(-350);
+    -webkit-transition: all .7s;
+    transition: all .7s;
+}
