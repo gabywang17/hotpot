@@ -128,7 +128,7 @@
       flex-flow: column;
       width: 100%;
       /* background-size:cover; */
-      background-image:url('img/橘色2.png');
+      background-image:url('img/橘色2.jpg');
       background-size: contain;
 
   }
@@ -355,7 +355,7 @@ drink{
     align-items: center;
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url('img/測試黃.png');
+    background-image: url('img/測試黃.jpg');
 }
 
 .footer li {
