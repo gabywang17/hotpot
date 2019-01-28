@@ -111,12 +111,14 @@
   
   banner{
       display: flex;
+      background-color: rgb(218, 205, 148);
+      height: 85vh;
   }
   banner img{
     /* max-width: 100%; */
     height: 60vh;
-    width:100%;
-    margin: 0 auto;
+    /* width:100%; */
+    margin: 25% auto;
     background-size: contain;
 
     
@@ -161,6 +163,7 @@
      height: 25vh;
      margin: 3%;
      padding: 3%;
+     border-radius: 20%;
    
  }
 
@@ -196,6 +199,7 @@ vegetable .vegetableimg{
    height: 25vh;
    margin: 3%;
    padding: 3%;
+   border-radius: 20%;
  
 }
 
@@ -231,6 +235,7 @@ seafood .seafoodimg{
    height: 25vh;
    margin: 3%;
    padding: 3%;
+   border-radius: 20%;
  
 }
 
@@ -265,6 +270,7 @@ hotPotSauce .hotPotSauceimg{
    height: 25vh;
    margin: 3%;
    padding: 3%;
+   border-radius: 20%;
  
 }
 /* 單點 */
@@ -298,6 +304,7 @@ single .singleimg{
    height: 25vh;
    margin: 3%;
    padding: 3%;
+   border-radius: 20%;
  
 }
 /* 飲料 */
@@ -332,18 +339,19 @@ drink .drinkimg{
    height: 25vh;
    margin: 3%;
    padding: 3%;
+   border-radius: 20%;
  
 }
 drink{
-    margin-bottom: 15vh;
+    margin-bottom: 8vh;
 }
 
 /* margin-bottom: 15vh; 最後補一個 */
 /* footer */
 .footer{
     display: flex;
-    min-height: 80px;
-    height: 11vh;
+    /* min-height: 80px; */
+    height: 8vh;
     /* background-color: aquamarine; */
     position: fixed;
     bottom: 0;
@@ -367,8 +375,9 @@ drink{
     text-decoration: none;
     /* padding: 0 5px 0px 5px; */
     color: aliceblue;
-    font-size: 1.1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: cursive;
     align-items: center;
     
 }
