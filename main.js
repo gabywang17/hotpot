@@ -15,7 +15,7 @@ function setScroll() {
     let index = buttons.indexOf(this)
     let target = images[index]
     console.dir(target)
-    scrollY = target.offsetTop - window.innerHeight / 2 + target.height / 2
+    scrollY = target.offsetTop - window.innerHeight / 6 + target.height / 2
 
     console.log(index)
 }
