@@ -94,7 +94,9 @@
     vertical-align: baseline;
     list-style: none;
   }
-
+  body{
+    background-color: rgb(252, 249, 240);
+}
   header{
       display: flex;
       height:11vh;
@@ -102,24 +104,31 @@
       /* background-image:url('img/本鼎堂.png'); */
       /* background-size: contain; */
       /* background-repeat:no-repeat; */
+      border: black 5px double;
+      margin-top: 3%;
+
 
   }
   header img{
       width: 100%;
-      margin: 0 auto;
+      margin:0 auto;
   }
   
   banner{
       display: flex;
-      background-color: rgb(218, 205, 148);
-      height: 85vh;
+      background-color: rgb(252, 249, 240);
+      background-image:url('img/測試背景2.png');
+      /* height: 60vh; */
+      /* border: black 3px double; */
+      background-size: contain;
   }
   banner img{
     /* max-width: 100%; */
     height: 60vh;
     /* width:100%; */
-    margin: 10vh auto;
+    margin: 11vh auto;
     background-size: contain;
+    border: black 3px double;
 
     
       
@@ -130,7 +139,7 @@
       flex-flow: column;
       width: 100%;
       /* background-size:cover; */
-      background-image:url('img/橘色2.jpg');
+      background-image:url('img/測試背景.png');
       background-size: contain;
 
   }
