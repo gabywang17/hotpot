@@ -117,10 +117,11 @@
   banner{
       display: flex;
       background-color: rgb(252, 249, 240);
-      background-image:url('img/測試背景2.png');
+      background-image:url('img/測試背景1.png');
       /* height: 60vh; */
       /* border: black 3px double; */
-      background-size: contain;
+      background-size: cover;
+      background-repeat:no-repeat;
   }
   banner img{
     /* max-width: 100%; */
@@ -139,9 +140,13 @@
       flex-flow: column;
       width: 100%;
       /* background-size:cover; */
-      background-color: rgba(85, 79, 79, 0.653);
-      background-image:url('img/測試背景3.png');
+
+      background-image:url('img/測試背景下.png');
+      background-color: rgba(186, 143, 74, 0.818);
       background-size: contain;
+      box-shadow:inset 10px 10px 3px rgba(49, 46, 39, 0.5);
+
+
 
   }
   meat{
@@ -158,7 +163,7 @@
 /* 控制banner */
   .meatMeun img{
       height: 11vh;
-      width: 100vw;
+      width: 100vw; 
   }
   /* 文字 */
   .meatimg > li {
