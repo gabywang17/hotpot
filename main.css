@@ -412,3 +412,25 @@ content div img {
     -webkit-transition: all .7s;
     transition: all .7s;
 }
+
+pc{
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    
+    header{
+        height: 100%;
+    }
+
+    pc{
+        display: flex;
+    }
+    pc img{
+        margin: 0 auto;
+        
+    }
+    banner,content{
+        display: none;
+    }
+}
