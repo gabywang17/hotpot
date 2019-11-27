@@ -138,7 +138,7 @@
       /* background-color: blue; */
       display: flex;
       flex-flow: column;
-      width: 100%;
+      width: 900%;
       /* background-size:cover; */
 
       background-image:url('img/測試背景下.png');
